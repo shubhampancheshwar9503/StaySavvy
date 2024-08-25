@@ -1,5 +1,4 @@
 # Hotel-Application
-HotelApplication
 This Java console application simulates a simple hotel menu selection system. Customers can choose between vegetarian and non-vegetarian dishes, select their preferred dish, and specify the quantity they want to order. The program then calculates and displays the total amount the customer needs to pay.
 
 Features:
