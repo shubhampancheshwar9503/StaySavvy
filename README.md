@@ -16,10 +16,3 @@ The application will display the total amount to be paid.
 
 Requirements:
 Java Development Kit (JDK) 8 or higher
-
-Example Output:
-Shubham's Mansion
-**********WELCOME**********
-Please Select An Option From Menu
-Option 1 : Vegetarian
-Option 2 : Non Vegetarian
