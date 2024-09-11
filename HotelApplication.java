@@ -1,206 +1,342 @@
 import java.util.Scanner;
-class HotelApplication
-{
-	public static void main(String[]args)
-	{
-		System.out.println("*****Shubham's Mansion*****");
-		System.out.println();
-		Scanner sc = new Scanner(System.in);
-		System.out.println("**********WELCOME**********");
-		System.out.println();
-		System.out.println("Please Select An Option From Menu");
-		System.out.println("Option 1 : Vegetarian");
-		System.out.println("Option 2 : Non Vegeterian");
-		int menu = sc.nextInt();
-		
-		switch(menu)
-		{
-			case 1:
-			{
-				System.out.println();
-				System.out.println("**********VEG DISHES**********");
-				System.out.println();
-				System.out.println("Dishes                      Prices");
-				System.out.println();
-				System.out.println("1. Makhni Paneer Biryani    300.00");
-				System.out.println("2. Dum Panner Kali Mirch    250.00");
-				System.out.println("3. Satrangi Biryani         200.00");
-				System.out.println("4. Dal Makhani              150.00");
-				System.out.println("5. Veg Soya Keema           100.00");
-				
-				System.out.println();
-				System.out.print("Please Choose Options : ");
-				int dish = sc.nextInt();
-				switch(dish)
-				{
-					case 1 : 
-					{
-					System.out.println("You Have Selected Makhani Paneer Biryani");
-					System.out.println();
-					System.out.print("Enter The Quantity Of Dish : ");
-					int quantity = sc.nextInt();
-					int price = 300;
-					int totalAmount = quantity*price;
-					System.out.println();
-					System.out.println("The Amount To Be Paid : "+" "+totalAmount);
-					}
-					break;
-					
-					case 2 :
-					{					
-					System.out.println("You Have Selected Dum Panner Kali Mirch");
-					System.out.println();
-					System.out.print("Enter The Quantity Of Dish : ");
-					int quantity = sc.nextInt();
-					int price = 250;
-					int totalAmount = quantity*price;
-					System.out.println();
-					System.out.println("The Amount To Be Paid : "+" "+totalAmount);
-					}
-					break;
-					
-					case 3 : 
-					{
-					System.out.println("You Have Selected Satrangi Biryani");
-					System.out.println();
-					System.out.print("Enter The Quantity Of Dish : ");
-					int quantity = sc.nextInt();
-					int price = 200;
-					int totalAmount = quantity*price;
-					System.out.println();
-					System.out.println("The Amount To Be Paid : "+" "+totalAmount);
-					}
-					break;
-					
-					case 4 : 
-					{
-					System.out.println("You Have Selected Dal Makhani");
-					System.out.println();
-					System.out.print("Enter The Quantity Of Dish : ");
-					int quantity = sc.nextInt();
-					int price = 150;
-					int totalAmount = quantity*price;
-					System.out.println();
-					System.out.println("The Amount To Be Paid : "+" "+totalAmount);
-					}
-					break;
-					
-					case 5 : 
-					{
-					System.out.println("You Have Selected Veg Soya Keema");
-					System.out.println();
-					System.out.print("Enter The Quantity Of Dish : ");
-					int quantity = sc.nextInt();
-					int price = 100;
-					int totalAmount = quantity*price;
-					System.out.println();
-					System.out.println("The Amount To Be Paid : "+" "+totalAmount);
-					}
-					break;
-					
-					default :
-					{
-						System.out.println("Invalid Input");
-					}
-				}
-				break;
-			}
-			
-			case 2:
-			{
-				System.out.println();
-				System.out.println("*********NON VEG DISHES*********");
-				System.out.println();
-				System.out.println("Dishes                      Prices");
-				System.out.println();
-				System.out.println("1. Nihari                   350.00");
-				System.out.println("2. Marag                    300.00");
-				System.out.println("3. Karahi                   250.00");
-				System.out.println("4. Vindaloo                 200.00");
-				System.out.println("5. Rogan Josh               150.00");
-				
-				System.out.println();
-				System.out.print("Please Choose Options : ");
-				int dish = sc.nextInt();
-				switch(dish)
-				{ 
-					case 1 : 
-					{
-						
-					System.out.println("You Have Selected Nihari");
-					System.out.println();
-					System.out.print("Enter The Quantity Of Dish : ");
-					int quantity = sc.nextInt();
-					int price = 350;
-					int totalAmount = quantity*price;
-					System.out.println();
-					System.out.println("The Amount To Be Paid : "+" "+totalAmount);
-					}
-					break;
-					
-					case 2 :
-					{					
-					System.out.println("You Have Selected Marag");
-					System.out.println();
-					System.out.print("Enter The Quantity Of Dish : ");
-					int quantity = sc.nextInt();
-					int price = 300;
-					int totalAmount = quantity*price;
-					System.out.println();
-					System.out.println("The Amount To Be Paid : "+" "+totalAmount);
-					}
-					break;
-					
-					case 3 : 
-					{
-					System.out.println("You Have Selected Karahi");
-					System.out.println();
-					System.out.print("Enter The Quantity Of Dish : ");
-					int quantity = sc.nextInt();
-					int price = 250;
-					int totalAmount = quantity*price;
-					System.out.println();
-					System.out.println("The Amount To Be Paid : "+" "+totalAmount);
-					}
-					break;
-					
-					case 4 : 
-					{
-					System.out.println("You Have Selected Vindaloo");
-					System.out.println();
-					System.out.print("Enter The Quantity Of Dish : ");
-					int quantity = sc.nextInt();
-					int price = 200;
-					int totalAmount = quantity*price;
-					System.out.println();
-					System.out.println("The Amount To Be Paid : "+" "+totalAmount);
-					}
-					break;
-					
-					case 5 : 
-					{
-					System.out.println("You Have Selected Rogan Josh");
-					System.out.println();
-					System.out.print("Enter The Quantity Of Dish : ");
-					int quantity = sc.nextInt();
-					int price = 150;
-					int totalAmount = quantity*price;
-					System.out.println();
-					System.out.println("The Amount To Be Paid : "+" "+totalAmount);
-					}
-					break;
 
-					default :
-					{
-						System.out.println("Invalid Input");
-					}
-				}
-				break;
-			}
-			default :
-			{
-				System.out.println("Invalid Input");
-			}
-		}
-	}
+class HotelApplication 
+{
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);
+        double totalBill = 0;
+        char continueOrder = 'Y'; // Initialize with a default value
+
+		System.out.println();
+        System.out.println("***** Shubham's Mansion *****");
+        System.out.println();
+        System.out.println("********** WELCOME **********");
+
+        while (continueOrder == 'Y' || continueOrder == 'y') 
+        {
+			System.out.println();
+            System.out.println("Please Select A Category : ");
+            System.out.println();
+            System.out.println("1. Vegetarian");
+            System.out.println("2. Non Vegetarian");
+            System.out.println("3. Desserts");
+            System.out.println("4. Beverages");
+            System.out.println();
+            System.out.println("Enter Your Choice : ");
+            int menu = sc.nextInt();
+
+            switch (menu) 
+            {
+                case 1: 
+                { // Vegetarian Menu
+                    System.out.println("\n********** VEG DISHES **********");
+					System.out.println();
+                    System.out.println("Dishes                      Prices");
+					System.out.println();
+                    System.out.println("1. Makhni Paneer Biryani    300.00");
+                    System.out.println("2. Dum Paneer Kali Mirch    250.00");
+                    System.out.println("3. Satrangi Biryani         200.00");
+                    System.out.println("4. Dal Makhani              150.00");
+                    System.out.println("5. Veg Soya Keema           100.00");
+                    System.out.println();
+                    System.out.println("Please Choose Dish : ");
+                    int vegDish = sc.nextInt();
+
+                    int vegPrice = 0;
+                    String vegDishName = "";
+
+                    switch (vegDish) 
+                    {
+                        case 1: 
+                        {
+                            vegDishName = "Makhni Paneer Biryani";
+                            vegPrice = 300;
+                            break;
+                        }
+                        
+                        case 2: 
+                        {
+                            vegDishName = "Dum Paneer Kali Mirch";
+                            vegPrice = 250;
+                            break;
+                        }
+                        
+                        case 3: 
+                        {
+                            vegDishName = "Satrangi Biryani";
+                            vegPrice = 200;
+                            break;
+                        }
+                        
+                        case 4: 
+                        {
+                            vegDishName = "Dal Makhani";
+                            vegPrice = 150;
+                            break;
+                        }
+                        
+                        case 5: 
+                        {
+                            vegDishName = "Veg Soya Keema";
+                            vegPrice = 100;
+                            break;
+                        }
+                        
+                        default: 
+                        {
+                            System.out.println("Invalid Input");
+                            continue;
+                        }
+                    }
+                    
+					System.out.println();
+                    System.out.println("You Have Selected " + vegDishName);
+					System.out.println();
+                    System.out.println("Enter The Quantity Of Dish : ");
+                    int vegQuantity = sc.nextInt();
+                    double vegTotalAmount = vegQuantity * vegPrice;
+                    totalBill += vegTotalAmount;
+					System.out.println();
+                    System.out.println("The Amount To Be Paid : RS." + vegTotalAmount);
+                    break;
+                }
+
+                case 2: 
+                { // Non-Vegetarian Menu
+                    System.out.println("\n********** NON VEG DISHES **********");
+					System.out.println();
+                    System.out.println("Dishes                      Prices");
+					System.out.println();
+                    System.out.println("1. Nihari                   350.00");
+                    System.out.println("2. Marag                    300.00");
+                    System.out.println("3. Karahi                   250.00");
+                    System.out.println("4. Vindaloo                 200.00");
+                    System.out.println("5. Rogan Josh               150.00");
+                    System.out.println();
+                    System.out.println("Please Choose Dish : ");
+                    int nonVegDish = sc.nextInt();
+
+                    int nonVegPrice = 0;
+                    String nonVegDishName = "";
+
+                    switch (nonVegDish) 
+                    {
+                        case 1: 
+                        {
+                            nonVegDishName = "Nihari";
+                            nonVegPrice = 350;
+                            break;
+                        }
+                        
+                        case 2: 
+                        {
+                            nonVegDishName = "Marag";
+                            nonVegPrice = 300;
+                            break;
+                        }
+                        
+                        case 3: 
+                        {
+                            nonVegDishName = "Karahi";
+                            nonVegPrice = 250;
+                            break;
+                        }
+                        
+                        case 4: 
+                        {
+                            nonVegDishName = "Vindaloo";
+                            nonVegPrice = 200;
+                            break;
+                        }
+                        
+                        case 5: 
+                        {
+                            nonVegDishName = "Rogan Josh";
+                            nonVegPrice = 150;
+                            break;
+                        }
+                        
+                        default: 
+                        {
+                            System.out.println("Invalid Input");
+                            continue;
+                        }
+                    }
+                    
+					System.out.println();
+                    System.out.println("You Have Selected " + nonVegDishName);
+					System.out.println();
+                    System.out.println("Enter The Quantity Of Dish : ");
+                    int nonVegQuantity = sc.nextInt();
+                    double nonVegTotalAmount = nonVegQuantity * nonVegPrice;
+                    totalBill += nonVegTotalAmount;
+					System.out.println();
+                    System.out.println("The Amount To Be Paid : RS." + nonVegTotalAmount);
+                    break;
+                }
+
+                case 3: 
+                { // Desserts Menu
+                    System.out.println("\n********** DESSERTS **********");
+					System.out.println();
+                    System.out.println("Dishes                      Prices");
+					System.out.println();
+                    System.out.println("1. Gulab Jamun              50.00");
+                    System.out.println("2. Rasmalai                 60.00");
+                    System.out.println("3. Ice Cream                80.00");
+                    System.out.println("4. Chocolate Cake           90.00");
+                    System.out.println("5. Fruit Salad              70.00");
+                    System.out.println();
+                    System.out.println("Please Choose Dish : ");
+                    int dessertDish = sc.nextInt();
+
+                    int dessertPrice = 0;
+                    String dessertDishName = "";
+
+                    switch (dessertDish) 
+                    {
+                        case 1: 
+                        {
+                            dessertDishName = "Gulab Jamun";
+                            dessertPrice = 50;
+                            break;
+                        }
+                        
+                        case 2: 
+                        {
+                            dessertDishName = "Rasmalai";
+                            dessertPrice = 60;
+                            break;
+                        }
+                        
+                        case 3: 
+                        {
+                            dessertDishName = "Ice Cream";
+                            dessertPrice = 80;
+                            break;
+                        }
+                        
+                        case 4: 
+                        {
+                            dessertDishName = "Chocolate Cake";
+                            dessertPrice = 90;
+                            break;
+                        }
+                        
+                        case 5: 
+                        {
+                            dessertDishName = "Fruit Salad";
+                            dessertPrice = 70;
+                            break;
+                        }
+                        
+                        default: 
+                        {
+                            System.out.println("Invalid Input");
+                            continue;
+                        }
+                    }
+                    
+					System.out.println();
+                    System.out.println("You Have Selected " + dessertDishName);
+					System.out.println();
+                    System.out.println("Enter The Quantity Of Dish : ");
+                    int dessertQuantity = sc.nextInt();
+                    double dessertTotalAmount = dessertQuantity * dessertPrice;
+                    totalBill += dessertTotalAmount;
+					System.out.println();
+                    System.out.println("The Amount To Be Paid : RS." + dessertTotalAmount);
+                    break;
+                }
+
+                case 4: 
+                { // Beverages Menu
+                    System.out.println("\n********** BEVERAGES **********");
+					System.out.println();
+                    System.out.println("Dishes                      Prices");
+					System.out.println();
+                    System.out.println("1. Tea                      20.00");
+                    System.out.println("2. Coffee                   30.00");
+                    System.out.println("3. Juice                    50.00");
+                    System.out.println("4. Soda                     40.00");
+                    System.out.println("5. Water                    10.00");
+                    System.out.println();
+                    System.out.println("Please Choose Dish : ");
+                    int beverageDish = sc.nextInt();
+
+                    int beveragePrice = 0;
+                    String beverageDishName = "";
+
+                    switch (beverageDish) 
+                    {
+                        case 1: 
+                        {
+                            beverageDishName = "Tea";
+                            beveragePrice = 20;
+                            break;
+                        }
+                        
+                        case 2: 
+                        {
+                            beverageDishName = "Coffee";
+                            beveragePrice = 30;
+                            break;
+                        }
+                        
+                        case 3: 
+                        {
+                            beverageDishName = "Juice";
+                            beveragePrice = 50;
+                            break;
+                        }
+                        
+                        case 4: 
+                        {
+                            beverageDishName = "Soda";
+                            beveragePrice = 40;
+                            break;
+                        }
+                        
+                        case 5: 
+                        {
+                            beverageDishName = "Water";
+                            beveragePrice = 10;
+                            break;
+                        }
+                        
+                        default: 
+                        {
+                            System.out.println("Invalid Input");
+                            continue;
+                        }
+                    }
+                    
+					System.out.println();
+                    System.out.println("You Have Selected " + beverageDishName);
+					System.out.println();
+                    System.out.println("Enter The Quantity Of Dish : ");
+                    int beverageQuantity = sc.nextInt();
+                    double beverageTotalAmount = beverageQuantity * beveragePrice;
+                    totalBill += beverageTotalAmount;
+					System.out.println();
+                    System.out.println("The Amount To Be Paid : RS." + beverageTotalAmount);
+                    break;
+                }
+
+                default: 
+                {
+                    System.out.println("Invalid Input");
+                    break;
+                }
+            }
+
+            System.out.print("\nWould You Like to Order More Items? (Y/N) : ");
+            continueOrder = sc.next().charAt(0);
+        }
+
+        System.out.printf("\nYour Total Bill is : RS."+ totalBill);
+		System.out.println();
+        System.out.println("Thank You For Visiting Shubham's Mansion!");
+    }
 }
