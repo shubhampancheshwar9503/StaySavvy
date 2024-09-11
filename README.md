@@ -1,15 +1,29 @@
-# Hotel Application - Java Console Ordering System
+# Hotel Application
+Hotel Application is a simple console-based restaurant ordering system developed in Java. This application simulates a basic restaurant ordering process, allowing users to select dishes from various categories including Vegetarian, Non-Vegetarian, Desserts, and Beverages. Users can specify the quantity for each dish, and the system calculates the total bill accordingly.
 
-This Java-based console application simulates a restaurant ordering system. Users can navigate through various menu categories (Vegetarian, Non-Vegetarian, Desserts, Beverages), select dishes, specify quantities, and view the total bill. The application uses basic control structures to handle user input and update the bill accordingly.
+## Features
+### Menu Categories:
 
-## Features:
+Vegetarian
+Non-Vegetarian
+Desserts
+Beverages
+Dish Selection: Users can choose from a variety of dishes, each with its own price.
 
-Menu with categorized dish options and prices.
-Dynamic bill calculation based on user selections.
-Console-based interface for user interactions.
-Technologies Used: Java, Scanner
+Quantity Input: Users can enter the quantity of each dish they wish to order.
 
-## How to Use:
+Total Bill Calculation: The application calculates and displays the total bill based on the selected dishes and quantities.
 
-Compile and run the HotelApplication class.
-Follow the prompts to select dishes and quantities, then view the total bill.
+## How to Use
+
+Run the HotelApplication class.
+Select a category from the menu.
+Choose a dish from the selected category.
+Enter the quantity of the dish.
+Decide whether to order more items or finalize the bill.
+The application will display the total bill and a thank you message.
+
+## Requirements
+
+Java 8 or higher
+Feel free to contribute or suggest improvements!
