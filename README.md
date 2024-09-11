@@ -1,30 +1,54 @@
-# Hotel Application
-Hotel Application is a simple console-based restaurant ordering system developed in Java. This application simulates a basic restaurant ordering process, allowing users to select dishes from various categories including Vegetarian, Non-Vegetarian, Desserts, and Beverages. Users can specify the quantity for each dish, and the system calculates the total bill accordingly.
+## Hotel Application
 
-## Features
-#### Menu Categories :
+### Overview
 
-Vegetarian
-Non-Vegetarian
-Desserts
-Beverages
+This Java-based console application simulates a restaurant ordering and payment system. It allows users to browse and select dishes from various categories, place orders, and make payments using different methods. The application provides a basic interface for users to interact with, and it includes functionality for managing both vegetarian and non-vegetarian dishes, as well as desserts and beverages.
 
-Dish Selection : Users can choose from a variety of dishes, each with its own price.
+### Features
 
-Quantity Input : Users can enter the quantity of each dish they wish to order.
+- **Menu Categories**: 
+  - Vegetarian Dishes
+  - Non-Vegetarian Dishes
+  - Desserts
+  - Beverages
 
-Total Bill Calculation : The application calculates and displays the total bill based on the selected dishes and quantities.
+- **Order Management**: 
+  - Select items from the menu.
+  - Specify quantity for each dish.
+  - Calculate total bill based on selected items.
 
-## How to Use
+- **Payment Methods**:
+  - Cash
+  - Card (with basic validation for card number, expiry date, and CVV)
+  - Digital Wallet
 
-Run the HotelApplication class.
-Select a category from the menu.
-Choose a dish from the selected category.
-Enter the quantity of the dish.
-Decide whether to order more items or finalize the bill.
-The application will display the total bill and a thank you message.
+### How It Works
 
-## Requirements
+1. **Menu Selection**: Users choose a category from the menu and then select specific dishes.
+2. **Quantity Input**: For each selected dish, users enter the quantity.
+3. **Total Calculation**: The application calculates the total amount based on the selected items and their quantities.
+4. **Payment Processing**: Users can choose their preferred payment method. The application handles cash payments directly, performs basic validation for card payments, and processes digital wallet payments.
 
-Java 8 or higher
-Feel free to contribute or suggest improvements!
+### Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/HotelApplication.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd HotelApplication
+   ```
+3. Compile and run the application:
+   ```bash
+   javac HotelApplication.java
+   java HotelApplication
+   ```
+
+### Code Structure
+
+- **HotelApplication.java**: Main class containing the logic for displaying the menu, taking orders, and processing payments.
+
+### Contributions
+
+Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
