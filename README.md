@@ -2,7 +2,7 @@
 Hotel Application is a simple console-based restaurant ordering system developed in Java. This application simulates a basic restaurant ordering process, allowing users to select dishes from various categories including Vegetarian, Non-Vegetarian, Desserts, and Beverages. Users can specify the quantity for each dish, and the system calculates the total bill accordingly.
 
 ## Features
-### Menu Categories :
+#### Menu Categories :
 
 Vegetarian
 Non-Vegetarian
