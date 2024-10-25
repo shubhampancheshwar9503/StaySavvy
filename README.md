@@ -1,54 +1,44 @@
-## Hotel Application
+# StaySavvy
 
-### Overview
+## Overview
+StaySavvy is a Java console application designed to streamline the restaurant order management process. The application provides an efficient and user-friendly way to manage orders, calculate bills, and handle payments.
 
-This Java-based console application simulates a restaurant ordering and payment system. It allows users to browse and select dishes from various categories, place orders, and make payments using different methods. The application provides a basic interface for users to interact with, and it includes functionality for managing both vegetarian and non-vegetarian dishes, as well as desserts and beverages.
+## Features
+- **Comprehensive Order Management**: Created a Java console application aimed at efficiently managing the restaurant order process.
+- **Interactive Menu Selection**: Implemented a menu selection system with categories such as Vegetarian, Non-Vegetarian, Desserts, and Beverages to enhance user experience.
+- **Real-Time Bill Calculations**: Enabled dynamic bill calculations that update based on selected dishes and quantities, ensuring accurate billing.
+- **Convenient Payment Options**: Offered multiple payment methods, including Cash, Card (with validation), and Digital Wallet for transaction convenience.
+- **Intuitive User Interface**: Designed a user-friendly interface for efficient order placement and payment processing, improving overall customer experience.
 
-### Features
-
-- **Menu Categories**: 
-  - Vegetarian Dishes
-  - Non-Vegetarian Dishes
-  - Desserts
-  - Beverages
-
-- **Order Management**: 
-  - Select items from the menu.
-  - Specify quantity for each dish.
-  - Calculate total bill based on selected items.
-
-- **Payment Methods**:
-  - Cash
-  - Card (with basic validation for card number, expiry date, and CVV)
-  - Digital Wallet
-
-### How It Works
-
-1. **Menu Selection**: Users choose a category from the menu and then select specific dishes.
-2. **Quantity Input**: For each selected dish, users enter the quantity.
-3. **Total Calculation**: The application calculates the total amount based on the selected items and their quantities.
-4. **Payment Processing**: Users can choose their preferred payment method. The application handles cash payments directly, performs basic validation for card payments, and processes digital wallet payments.
-
-### Getting Started
-
+## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/HotelApplication.git
+   git clone https://github.com/yourusername/StaySavvy.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd HotelApplication
+   cd StaySavvy
    ```
-3. Compile and run the application:
+3. Compile the Java files:
    ```bash
-   javac HotelApplication.java
-   java HotelApplication
+   javac *.java
+   ```
+4. Run the application:
+   ```bash
+   java Main
    ```
 
-### Code Structure
+## Usage
+- Launch the application and select menu categories to view available dishes.
+- Choose dishes and quantities to add to the order.
+- View real-time bill updates based on selected items.
+- Select a payment method and complete the transaction.
 
-- **HotelApplication.java**: Main class containing the logic for displaying the menu, taking orders, and processing payments.
+## Key Contributions
+- Created a comprehensive Java console application aimed at streamlining the restaurant order management process efficiently.
+- Developed an interactive menu selection system for categories like Vegetarian, Non-Vegetarian, Desserts, and Beverages to enhance user interaction.
+- Enabled real-time bill calculations that dynamically update based on selected dishes and quantities, ensuring accurate billing.
+- Offered convenient payment options, including Cash, Card (with validation), and Digital Wallet, to enhance transaction convenience.
+- Designed an intuitive user interface for efficient order placement and payment processing, improving overall customer experience.
 
-### Contributions
-
-Contributions are welcome! If you have suggestions or improvements, please open an issue or submit a pull request.
+Feel free to modify any sections to better suit your project or add additional details as necessary!
